@@ -23,6 +23,7 @@ class Character {
         // Start animation loop
         this.animate();
     }
+
     
     handleKeyDown(e) {
         this.keys[e.key] = true;
